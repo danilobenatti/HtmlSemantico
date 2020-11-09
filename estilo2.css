@@ -1,0 +1,22 @@
+div.caixa1 {
+    background-color: green;
+    border: 3px solid black;
+}
+
+div.caixa2 {
+    background-color: yellow;
+    border: 5px dotted green;
+}
+
+div.caixa3 {
+    background-color: red;
+    border: 20px double orange;
+}
+
+div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 40px;
+}
