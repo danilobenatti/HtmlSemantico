@@ -1,6 +1,7 @@
 div.caixa1 {
     background-color: green;
     border: 3px solid black;
+    border-radius: 20px;
 }
 
 div.caixa2 {
@@ -11,6 +12,7 @@ div.caixa2 {
 div.caixa3 {
     background-color: red;
     border: 20px double orange;
+    border-radius: 30px;
 }
 
 div {
@@ -19,4 +21,19 @@ div {
     height: 200px;
     margin: 30px;
     padding: 40px;
+    box-sizing: border-box;
+}
+
+div.container {
+    padding: 0.01em 16px;
+}
+div.pale-blue {
+    color: #000!important;
+    background-color: #ddffff!important;
+}
+div.leftbar {
+    border-left: 6px solid #ccc!important;
+}
+div.border-blue {
+    border-color: #2196f3!important;
 }

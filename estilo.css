@@ -27,10 +27,16 @@ section {
     border-bottom: 2px dotted gray;
 }
 
+section.noticias {
+    overflow: hidden;
+}
+
 article {
     padding: 20px;
     margin: 20px 0;
     background-color: #ffa600ad;
+    float: left;
+    width: 29%;
 }
 
 span {
