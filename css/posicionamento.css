@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: #f2f2f2;
+    width: 100%;
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    border: 2px solid gray;
+    padding: 20px;
+    position: relative;
+    /* Os atributos top/bottom/left/right */
+    /* Apenas terão efeito se position: relative */
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+img {
+    /* position: absolute; */
+    /* top: 0px; */
+}
+
+img.chat {
+    width: 100px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
