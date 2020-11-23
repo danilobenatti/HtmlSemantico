@@ -11,8 +11,12 @@ body {
 header {
     text-align: center;
     width: 100%;
+    /* height: 100vh; */
     border: 2px solid gray;
+    background-color: #fff;
     padding: 10px;
+    position: fixed;
+    z-index: 2;
 }
 
 ul {
@@ -34,6 +38,15 @@ main {
     background-color: #f2f2f2;
     width: 100%;
     position: relative;
+    padding: 100px 0 30px;
+}
+
+p {
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: justify;
 }
 
 footer {
@@ -43,7 +56,7 @@ footer {
     padding: 20px;
     position: relative;
     /* Os atributos top/bottom/left/right */
-    /* Apenas terão efeito se position: relative */
+    /* Apenas terão efeito se "position: ..." estiver definido */
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -57,7 +70,24 @@ img {
 
 img.chat {
     width: 100px;
-    position: fixed;
     right: 0px;
     bottom: 0px;
+    position: fixed;
+    z-index: 2;
 }
+
+img.banner {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    max-width: 100%; /* Imagem com largura responsiva */
+    width: 900px;
+    /* height: 100vw; */
+}
+
+/* position: relative - Pequenas compensações e sobreposições */
+/* position: absolute - Posicione os elementos absolutamente 
+em relação aos lados do corpo */
+/* position: fixed - Corrija um elemento e o acompanhe ao rolar */
+/* "relative" + "absolute" - O elemento com position absolute toma
+como referência as arestas de seu contêiner pai e não o body */
